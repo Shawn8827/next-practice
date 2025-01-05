@@ -6,11 +6,11 @@ export default function Home() {
     <Layout>
       <div>
         <h1>This is HOME page </h1>
-        <Link className="goto" href="./newPage">
+        <Link className="" href="./newPage">
           前往 new page
         </Link>
         <br />
-        <Link className="goto" href="./posts">
+        <Link className="" href="./posts">
           前往 post
         </Link>
       </div>
