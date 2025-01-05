@@ -1,0 +1,19 @@
+import Layout from "@/components/Layout";
+import Link from "next/link";
+
+export default function Home() {
+  return (
+    <Layout>
+      <div>
+        <h1>This is HOME page </h1>
+        <Link className="goto" href="./newPage">
+          前往 new page
+        </Link>
+        <br />
+        <Link className="goto" href="./posts">
+          前往 post
+        </Link>
+      </div>
+    </Layout>
+  );
+}
